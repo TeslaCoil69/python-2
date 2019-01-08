@@ -1,0 +1,47 @@
+#quiz -*koty b jan 3 2019
+data storage
+what type would be "hello"?
+int
+string
+double
+float
+2
+"hello" is stored as a string of ascii characters
+code output
+what would he expected output of / print("ABCABBA".strip("AB")) be?
+CBA
+CABBA
+C
+BCAB
+3
+the .strip("AB") removes all A or B characters
+error detection
+what would the expected value of / x be after "x = complex(3, 5)"?
+(3+5j)
+ERROR
+18
+(11j)
+1
+The complex() function returns a complex number by specifying a real number and an imaginary number.
+file permissions
+if a file by the name of "demofile.txt" already exists, /and you run "f = open("demofile.txt", "x")", what will be the result?
+ERROR
+nothing
+file opens properly
+python shits itself
+1
+permission "x" Creates the specified file, returns an error if the file exists
+code output
+if the following code is ran: /mylist = ["a", "b", "a", "c", "c"]/mylist = list(dict.fromkeys(mylist)) /print(mylist)/what is the expected output?
+["a", "b", "a", "c", "c"]
+["a", "b", "a"]
+['a', 'b', 'c']
+["a", "b", "c", "c"]
+3
+mylist = list(dict.fromkeys(mylist)) removes any duplicates within the list
+data storage
+if i run the code: /"thistuple = ("apple", "banana", "cherry") /del thistuple" /can i still access "thistuple"?
+yes
+no
+N/A
+N/A
